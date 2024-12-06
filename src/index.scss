@@ -14,3 +14,34 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+/* ==============================category listing css===================================*/
+.category-list-container {
+  margin-top: 30px;
+  background-color: #d61717;
+
+  .category-title {
+    padding: 16px 24px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+  }
+
+  .category-button {
+    width: 100%;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #e0e0e0;
+    }
+
+    .category-name {
+      font-weight: 500;
+      color: #000;
+    }
+  }
+}
+/* =================================================================*/

@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import './App.scss';
 import LazyLoader from './components/LazyLoader';
 import PageRoute from './routes/PageRoute';
+import './i18n';
 
 function App() {
   return (

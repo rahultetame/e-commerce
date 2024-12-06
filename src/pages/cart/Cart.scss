@@ -1,0 +1,36 @@
+
+.cart-page {
+  padding: 2rem;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+
+    input {
+      width: 50px;
+    }
+
+    button {
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 0.5rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #c2185b;
+      }
+    }
+  }
+}
